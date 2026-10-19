@@ -49,6 +49,7 @@ window.PORTFOLIO = {
       category: "Electroacoustic composition",
       format: "Stereo · 6'29\"",
       image: "assets/img/campo.jpg",
+      canvasCredit: "Canvas by Ferrati Anita",
       summary: "First electroacoustic composition: processes, textures, drones, logograms and analogue synthesis become materials for shaping form through listening.",
       tags: ["logograms", "analog synthesis", "DAW montage"],
       links: [
@@ -62,6 +63,7 @@ window.PORTFOLIO = {
       category: "Concrete sound study",
       format: "Stereo · 2'42\"",
       image: "assets/img/superfluous-cover.webp",
+      canvasCredit: "Canvas by Ferrati Anita",
       summary: "The studio’s residual sounds — doors, ticking, friction and sonic traces — become the central material of the composition.",
       tags: ["concrete sound", "sound design", "residual listening"],
       links: [
@@ -75,6 +77,7 @@ window.PORTFOLIO = {
       category: "Vocal study",
       format: "Stereo · 4'38\"",
       image: "assets/img/vox-mea-sum-cover.webp",
+      canvasCredit: "Canvas by Ferrati Anita",
       summary: "Vowels and vocalisations are the work’s only source material: the voice becomes environment, timbral body and electroacoustic matter.",
       tags: ["voice", "post-production", "electroacoustic"],
       links: [
@@ -88,6 +91,7 @@ window.PORTFOLIO = {
       category: "Synthetic sound study",
       format: "Stereo · 6'14\"",
       image: "assets/img/nubivagus-cover.webp",
+      canvasCredit: "Canvas by Ferrati Anita",
       summary: "A journey through synthetic dreams built exclusively from synthesizers and digital sound design, without concrete recordings.",
       tags: ["synthesis", "digital sound design", "synthetic landscape"],
       links: [
@@ -101,6 +105,7 @@ window.PORTFOLIO = {
       category: "Soundscape · Spatial composition",
       format: "Quadraphonic · 5'15\"",
       image: "assets/img/wasalo-cover.webp",
+      canvasCredit: "Canvas by Ferrati Anita",
       summary: "Field recordings from Steven Feld’s research in Papua New Guinea, reorganised as a quadraphonic soundscape across front and rear fields.",
       tags: ["quadraphony", "field recording", "soundscape"],
       links: [
@@ -114,6 +119,7 @@ window.PORTFOLIO = {
       category: "Immersive composition",
       format: "Electronic composition · spatial performance",
       image: "assets/img/acid.jpg",
+      canvasCredit: "Canvas by Ferrati Anita",
       summary: "Unstable electronic matter, spatial movement and gestural control converge in a performative composition.",
       tags: ["immersive audio", "gesture", "Ableton Live"],
       links: [
@@ -127,6 +133,7 @@ window.PORTFOLIO = {
       category: "Interactive system",
       format: "Hand tracking · OSC · Max/MSP",
       image: "assets/img/air.jpg",
+      canvasCredit: "Canvas by Ferrati Anita",
       summary: "A gestural interface that translates hand distances, position and velocity into normalized musical data that can be mapped in real time.",
       tags: ["MediaPipe", "Python", "OSC", "Max for Live"],
 
@@ -152,6 +159,7 @@ window.PORTFOLIO = {
       category: "Live spatialization",
       format: "Multichannel performance",
       image: "assets/img/sonic.jpg",
+      canvasCredit: "Canvas by Ferrati Anita",
       summary: "A performative sound-direction system: logograms, multichannel routing and live spatialization reinterpret the ensemble’s materials in real time.",
       tags: ["SPAT", "LBAP", "Max/MSP", "Dante"],
       links: [
@@ -278,13 +286,18 @@ window.PORTFOLIO = {
     {
       slug: "archi",
       title: "Study for String Instruments",
-      year: "2023–24",
+      year: "2022–23",
       category: "Preparatory research",
       format: "Open notation",
       image: "assets/img/archi.jpg",
       summary: "Open notation, logograms and graphic processes as devices for shaping gesture and sonic behaviour.",
       tags: ["open score", "strings", "graphic notation"],
-      links: []
+      links: [
+        { label: "Legend — General indications", href: "assets/docs/studio-archi-legenda-indicazioni.png" },
+        { label: "Test score", href: "assets/docs/studio-archi-partitura.pdf" },
+        { label: "Legend — Processes & techniques", href: "assets/docs/studio-archi-legenda-tecniche.png" },
+        { label: "Documentation", href: "assets/docs/studio-archi-documentazione.pdf" }
+      ]
     }
   ],
 

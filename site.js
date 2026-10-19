@@ -32,7 +32,7 @@
     <button class="${cls}" data-project="${p.slug}">
       <img src="${p.image}" alt="${escape(p.title)}">
       <div class="${cls === 'project-tile' ? 'project-tile-copy' : cls === 'duo-card' ? 'duo-copy' : 'image-card-copy'}">
-        <span>${escape(p.category)}</span><h3>${escape(p.title)}</h3>${cls === 'project-tile' ? `<p>${escape(p.summary)}</p>` : ''}
+        <span>${escape(p.category)}</span><h3>${escape(p.title)}</h3>${cls === 'project-tile' ? `<p>${escape(p.summary)}</p>` : ''}${p.canvasCredit ? `<div class="project-credit">${escape(p.canvasCredit)}</div>` : ''}
       </div>
     </button>`;
 
@@ -41,7 +41,7 @@
   byId('studyGrid').innerHTML = studies.map((p, i) => `
     <button class="study-card" data-project="${p.slug}">
       <span class="num">0${i + 1}</span>
-      <div><h3>${escape(p.title)}</h3><p>${escape(p.summary)}</p></div>
+      <div><h3>${escape(p.title)}</h3><p>${escape(p.summary)}</p>${p.canvasCredit ? `<div class="project-credit">${escape(p.canvasCredit)}</div>` : ''}</div>
       <span class="mini">${escape(p.format)} · open ↗</span>
     </button>`).join('');
 
@@ -96,6 +96,9 @@
     byId('dialogMeta').textContent = `${p.year} · ${p.category} · ${p.format}`;
     byId('dialogTitle').textContent = p.title;
     byId('dialogSummary').textContent = p.summary;
+    const dialogCredit = byId('dialogCredit');
+    dialogCredit.textContent = p.canvasCredit || '';
+    dialogCredit.hidden = !p.canvasCredit;
     byId('dialogTags').innerHTML = (p.tags || []).map(t => `<span class="tag">${escape(t)}</span>`).join('');
     const videos = (p.videoEmbeds || []).filter(v => v && v.embed).map(v => `
       <div class="video-item">

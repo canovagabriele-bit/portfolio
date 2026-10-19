@@ -93,3 +93,24 @@ h1,h2,h3,p{margin:0}h1,h2,h3{font-family:Georgia,'Times New Roman',serif;font-we
   .dialog-cover-embed{min-height:352px}
 }
 
+
+
+/* --- 2026-10-19: Canvas credits + string-study materials --- */
+.project-credit{
+  margin-top:9px;
+  font:italic 9px/1.35 'Courier New',monospace;
+  letter-spacing:.045em;
+  color:rgba(255,255,255,.68);
+}
+.study-card .project-credit{color:#777b81;margin-top:8px}
+.project-tile-copy .project-credit{color:#d1d1d1;margin-top:8px}
+.dialog-credit{
+  margin-top:14px;
+  font:italic 10px/1.4 'Courier New',monospace;
+  letter-spacing:.06em;
+  color:var(--gold);
+}
+.dialog-credit[hidden]{display:none}
+@media(max-width:850px){
+  .project-credit{font-size:9px}
+}
