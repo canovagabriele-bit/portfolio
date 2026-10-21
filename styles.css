@@ -68,7 +68,7 @@ h1,h2,h3,p{margin:0}h1,h2,h3{font-family:Georgia,'Times New Roman',serif;font-we
   content:"";
   position:absolute;
   inset:0;
-  background:url('assets/img/vincoli-composite.webp') center 54% / min(72vw,980px) auto no-repeat;
+  background:url('assets/img/vincoli-composite.webp') center 54% / auto 115% no-repeat;
   opacity:.10;
   filter:grayscale(.08) contrast(1.02);
   pointer-events:none;
