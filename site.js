@@ -90,7 +90,7 @@
       coverEmbed.hidden = true;
       coverEmbed.src = 'about:blank';
       dialogImage.hidden = false;
-      dialogImage.src = p.image;
+      dialogImage.src = p.detailImage || p.image;
       dialogImage.alt = p.title;
     }
     byId('dialogMeta').textContent = `${p.year} · ${p.category} · ${p.format}`;
