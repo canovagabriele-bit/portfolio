@@ -217,12 +217,12 @@ window.PORTFOLIO = {
       summary: "Audiovisual compositions for fashion design. The works on matter, body and fabric build a relationship between visual surface, rituality, editing and listening.",
       tags: ["fashion film", "fixed media", "sound design"],
       videoEmbeds: [
-        { label: "Materia I", embed: "https://www.youtube-nocookie.com/embed/a3-ffmo0hto", external: "https://youtu.be/a3-ffmo0hto" },
+        { label: "Materia I", embed: "https://www.youtube-nocookie.com/embed/Mj9Pa5t4cjQ", external: "https://youtu.be/Mj9Pa5t4cjQ" },
         { label: "Materia II", embed: "https://www.youtube-nocookie.com/embed/JBcslOZFG6U", external: "https://youtu.be/JBcslOZFG6U" },
         { label: "Materia III", embed: "https://www.youtube-nocookie.com/embed/tO_wFDFCJF8", external: "https://youtu.be/tO_wFDFCJF8" }
       ],
       links: [
-        { label: "Materia I", href: "https://youtu.be/a3-ffmo0hto" },
+        { label: "Materia I", href: "https://youtu.be/Mj9Pa5t4cjQ" },
         { label: "Materia II", href: "https://youtu.be/JBcslOZFG6U" },
         { label: "Materia III", href: "https://youtu.be/tO_wFDFCJF8" }
       ]
