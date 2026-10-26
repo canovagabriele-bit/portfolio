@@ -213,7 +213,7 @@ window.PORTFOLIO = {
       year: "2025–26",
       category: "Fashion film · Sound design",
       format: "Fixed-media audiovisual works",
-      image: "https://youtu.be/Mj9Pa5t4cjQ",
+      image: "https://img.youtube.com/vi/Mj9Pa5t4cjQ/hqdefault.jpg",
       summary: "Audiovisual compositions for fashion design. The works on matter, body and fabric build a relationship between visual surface, rituality, editing and listening.",
       tags: ["fashion film", "fixed media", "sound design"],
       videoEmbeds: [
